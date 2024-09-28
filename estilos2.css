@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; /* Fonte Montserrat */
+    background-color: #1d1d1d; /* Fundo preto */
+    color: white;
+}
+
+/* Seção Principal */
+#plano_de_fundo {
+    background: linear-gradient(to right, #1d1d1d 50%, #f4a200 50%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.texto_dentro_da_imagem {
+    max-width: 500px;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.campo-email {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.botao {
+    background-color: #f4a200;
+    color: black;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #d99000;
+}
+
+/* Seção de Informação */
+.informacao {
+    background-color: #2c2c2c;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.bloco-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bloco-info img {
+    width: 60px;
+}
+
+.bloco-info h2 {
+    font-size: 20px;
+    color: #f4a200;
+}
+
+.bloco-info p {
+    color: white;
+    line-height: 1.6;
+}
+
+/* Seção Miriam Mendonça */
+.sobre-miriam {
+    background-color: #333;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.miriam-imagem img {
+    width: 300px;
+    border-radius: 150%;
+}
+
+.miriam-texto {
+    max-width: 600px;
+}
+
+.miriam-texto h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.miriam-texto p {
+    line-height: 1.6;
+}
+
+/* Seção Alunos */
+.alunos {
+    background-color: #2c2c2c;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alunos-texto h2 {
+    font-size: 24px;
+    color: #f4a200;
+    max-width: 500px;
+}
+
+.alunos-imagem img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+/* Nova Seção */
+.nova-secao {
+    background-color: #808080; /* Fundo cinza */
+    height: 40vh; /* Altura da nova seção ajustada */
+    padding: 20px; /* Espaçamento interno */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinhamento centralizado */
+    justify-content: center; /* Centraliza verticalmente */
+}
+
+.nova-secao h1 {
+    font-size: 24px; /* Tamanho do título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.nova-secao p {
+    margin-bottom: 20px; /* Espaçamento abaixo do parágrafo */
+}
+
+.section-image {
+    width: 100px; /* Tamanho da imagem da nova seção */
+    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+}
+
+.text-area textarea {
+    width: 100%; /* Largura da área de texto */
+    height: 100px; /* Altura da área de texto */
+    padding: 10px; /* Preenchimento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+}
